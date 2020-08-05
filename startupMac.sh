@@ -89,8 +89,3 @@ INSTALL_APP "spotify" "cask"
 INSTALL_APP "whatsapp" "cask"
 INSTALL_APP "telegram" "cask"
 INSTALL_APP "notion" "cask"
-
-
-
-
-
