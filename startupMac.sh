@@ -66,8 +66,8 @@ PRINT "Enabling workspaces for both screens..."
 gsettings set org.gnome.mutter workspaces-only-on-primary false
 clear
 
-#PRINT "Installing Oh-My-Zsh..."
-#sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+PRINT "Installing Oh-My-Zsh..."
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 clear
 
 PRINT "Do you want to configure your terminal with powerlevel10k? (y/n)"
